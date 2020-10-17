@@ -100,7 +100,9 @@ margin-right: 48px;
     transform: translate(-50%,-50%);
     padding-top: 10px;
     bottom: 0;
-    position: absolute;
+    top: 280px;
+    width: 43%;
+
     background: linear-gradient(to right, #db1bf6,#19d7f9);
 }
 

@@ -6,13 +6,11 @@ import './login.css';
       super(props);
     }
     render() {
-        const mystyle = {
-            
-                  
-          };
+                 
+         
       return (
           
-        <div className="container" style={mystyle}>
+        <div className="container" >
         <div className="card-wrap">
           <div className="card border-0 shadow card--welcome is-show" id="welcome">
             <div className="card-body">
@@ -63,58 +61,7 @@ import './login.css';
           </div>
         </div>
       </div>
-//         <div className="container">
-//     <div className="row">
-//         <div className="col-xs-12 col-sm-12 col-md-4 well well-sm">
-//             <legend><a href="http://www.jquery2dotnet.com"><i className="glyphicon glyphicon-globe"></i></a> Sign up!</legend>
-//             <form action="#" method="post" className="form" role="form">
-//             <div className="row">
-//                 <div className="col-xs-6 col-md-6">
-//                     <input className="form-control" name="firstname" placeholder="First Name" type="text"
-//                         required autofocus />
-//                 </div>
-//                 <div className="col-xs-6 col-md-6">
-//                     <input className="form-control" name="lastname" placeholder="Last Name" type="text" required />
-//                 </div>
-//             </div>
-//             <input className="form-control" name="youremail" placeholder="Your Email" type="email" />
-//             <input className="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
-//             <input className="form-control" name="password" placeholder="New Password" type="password" />
-//             <label for="">
-//                 Birth Date</label>
-//             <div className="row">
-//                 <div className="col-xs-4 col-md-4">
-//                     <select className="form-control">
-//                         <option value="Month">Month</option>
-//                     </select>
-//                 </div>
-//                 <div className="col-xs-4 col-md-4">
-//                     <select className="form-control">
-//                         <option value="Day">Day</option>
-//                     </select>
-//                 </div>
-//                 <div className="col-xs-4 col-md-4">
-//                     <select className="form-control">
-//                         <option value="Year">Year</option>
-//                     </select>
-//                 </div>
-//             </div>
-//             <label className="radio-inline">
-//                 <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
-//                 Male
-//             </label>
-//             <label className="radio-inline">
-//                 <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
-//                 Female
-//             </label>
-//             <br />
-//             <br />
-//             <button className="btn btn-lg btn-primary btn-block" type="submit">
-//                 Sign up</button>
-//             </form>
-//         </div>
-//     </div>
-// </div>
+
 
     )
     }
