@@ -23,12 +23,18 @@ class App extends React.Component {
 	}
 	changeIt(v){
 		this.setState({
+			view : "Login",
 			showLogin: v
 		})
 	}
 
 	render(){
-		
+		const mystyle = {
+			color: "white",
+			backgroundColor: "DodgerBlue",
+			padding: "10px",
+			fontFamily: "Arial"
+		  };
 		let render
 		switch(this.state.view){
 			case "Home" : render = <Home/>;break;
@@ -36,11 +42,11 @@ class App extends React.Component {
 			case "Start" : render = <Start/>;break;
 			case "CryptoGraph": render = <CryptoGraph/>;break;
 		}
-
+console.log(render)
 		return(
 			<div>
 			<NavBar hundlePage={(e) =>{this.hundlePage(e)}} changeView={(v)=>{this.changeIt(v)}}/>
-	     	{this.state.showLogin && <Login /> }
+	     	{this.state.showLogin && <Login  /> }
 
 			{render}
 			</div>

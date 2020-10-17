@@ -22,6 +22,7 @@ body {
     margin: 0 20px;
     color: #b2b1b1;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .logo img{
@@ -31,6 +32,7 @@ margin-right: 48px;
 }
 .active{
     color: #19dafa !important;
+
 }
 .signup-btn{
     top: 40px;
@@ -52,7 +54,8 @@ margin-right: 48px;
 
 
 .app-text h2{
-    font-size: 43px;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 640px;
     text-align: center;
     color: white;
@@ -92,7 +95,10 @@ margin-right: 48px;
 } */
 
 .quick-links{
-    left: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 10px;
     bottom: 0;
     position: absolute;
     background: linear-gradient(to right, #db1bf6,#19d7f9);
@@ -143,7 +149,8 @@ margin-right: 48px;
 /*/*//*/***/
 
 .play-btn{
-    margin-left: 350px;
+    margin-top: 20px;
+    margin-left: 150px;
     display: inline-flex;
 }
 .play-btn-inner{
@@ -169,4 +176,8 @@ small{
     font-size: 12px;
     color: #19dafa;
     letter-spacing: 3px;
+    text-decoration: underline;
 }
+
+/*****************************************************************************************/
+

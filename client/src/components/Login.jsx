@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import './Log.css';
+import './login.css';
 
  class Login extends Component {
     constructor(props) {
       super(props);
     }
     render() {
+        const mystyle = {
+            
+                  
+          };
       return (
           
-        <div className="container">
+        <div className="container" style={mystyle}>
         <div className="card-wrap">
           <div className="card border-0 shadow card--welcome is-show" id="welcome">
             <div className="card-body">
