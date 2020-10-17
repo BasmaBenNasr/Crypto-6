@@ -22,7 +22,7 @@ export default class NavBar extends Component {
                <li  className="active"><a href="http://localhost:3000/">Home</a></li>
                {/* <li><a href="#">Price</a></li>
                <li href="#">Products </li> */}
-               <li> <a href="#">About us</a></li>
+               <li> <a href="#"  name="AboutUs" onClick={this.changeViewMain}>About us</a></li>
                <li><a href="#" name="Login" className="signup-btn" onClick={this.changeViewMain}><span>Login</span></a> </li>
                
 

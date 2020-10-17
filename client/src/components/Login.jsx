@@ -50,7 +50,8 @@ export default class Login extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input
+          <input 
+            className = "input1"
             type="email"
             name="email"
             placeholder="Email"
@@ -60,6 +61,7 @@ export default class Login extends Component {
           />
 
           <input
+              className = "input2"
             type="password"
             name="password"
             placeholder="Password"
@@ -68,7 +70,7 @@ export default class Login extends Component {
             required
           />
 
-          <button type="submit">Login</button>
+          <button className="login"type="submit">Login</button>
         </form>
       </div>
     );

@@ -26,10 +26,12 @@ body {
     font-size: 25px;
 }
 
-.logo img{
+.logo img {
 width: 30px;
 margin-top: -7px;
 margin-right: 48px;
+background-color: white;
+
 }
 .active{
     color: #19dafa !important;
@@ -200,6 +202,27 @@ margin-right: 48px;
     
     font-size: 200%;
 }
+.input1{
+    position: relative;
+    top: 80px;
+    left: 700px;
+}
+.input2{
+    
+    position: relative;
+    top: 150px;
+    left: 515px;
+}
+.login{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 200px;
+    left: 380px;
+    background-color: rgb(108, 110, 235);
+}
+
+
 
 /*****************************************************************************************/
 

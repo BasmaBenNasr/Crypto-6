@@ -53,6 +53,7 @@ export default class Registration extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <input
+          className="reg1"
             type="email"
             name="email"
             placeholder="Email"
@@ -62,6 +63,7 @@ export default class Registration extends Component {
           />
 
           <input
+          className="reg2"
             type="password"
             name="password"
             placeholder="Password"
@@ -71,6 +73,7 @@ export default class Registration extends Component {
           />
 
           <input
+          className="reg3"
             type="password"
             name="password_confirmation"
             placeholder="Password confirmation"
@@ -79,7 +82,7 @@ export default class Registration extends Component {
             required
           />
 
-          <button type="submit">Register</button>
+          <button className="bt"type="submit">Register</button>
         </form>
       </div>
     );
