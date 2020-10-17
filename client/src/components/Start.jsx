@@ -6,45 +6,19 @@ import React, { Component } from 'react';
     }
     render() {
       return (
-        <div className="main-w3layouts wrapper">
-		<h1>Creative SignUp Form</h1>
-		<div className="main-agileinfo">
-			<div className="agileits-top">
-				<form action="#" method="post">
-					<input className="text" type="text" name="Username" placeholder="Username" required=""/>
-					<input className="text email" type="email" name="email" placeholder="Email" required=""/>
-					<input className="text" type="password" name="password" placeholder="Password" required=""/>
-					<input className="text w3lpass" type="password" name="password" placeholder="Confirm Password" required=""/>
-					<div className="wthree-text">
-						<label className="anim">
-							<input type="checkbox" className="checkbox" required=""/>
-							<span>I Agree To The Terms & Conditions</span>
-						</label>
-						<div className="clear"> </div>
-					</div>
-					<input type="submit" value="SIGNUP"/>
-				</form>
-				<p>Don't have an Account? <a href="file:///C:/Users/Boss/Documents/Login/login_from.html"> Login Now!</a></p>
-			</div>
-		</div>
-		
-		<div className="colorlibcopy-agile">
-			<p>© 2018 Colorlib Signup Form. All rights reserved | Design by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
-		</div>
-		
-		<ul className="colorlib-bubbles">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</div>
+    //     <div class="page-container">
+            
+    //     <form action="#" method="POST">
+    //     <h1>Sign Up</h1>
+    //         <input type="text" name="name" class="Name" placeholder="Name"/>
+    //         <input type="text" name="tele" class="Tele" placeholder="Number Phone"/>
+    //         <input type="text" name="email" class="Email" placeholder="Email"/>
+    //         <input type="password" name="password" class="Address" placeholder="password"/>
+    //         <button type="submit" value="Add" name="submit">Submit</button>
+    //     </form>
+    // </div> 
+<h1></h1>
+
  
       );
     }

@@ -12,13 +12,19 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			view:"Home"
+			view:"Home",
+			showLogin:false
 		};
 		this.hundlePage=this.hundlePage.bind(this)
 	}
 
 	hundlePage(e){
 		this.setState({view: e.target.name})
+	}
+	changeIt(v){
+		this.setState({
+			showLogin: v
+		})
 	}
 
 	render(){
@@ -33,7 +39,8 @@ class App extends React.Component {
 
 		return(
 			<div>
-			<NavBar hundlePage={this.hundlePage}/>
+			<NavBar hundlePage={(e) =>{this.hundlePage(e)}} changeView={(v)=>{this.changeIt(v)}}/>
+	     	{this.state.showLogin && <Login /> }
 			{render}
 			</div>
 			
