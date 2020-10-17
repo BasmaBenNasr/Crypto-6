@@ -110,7 +110,7 @@ export default class NavBar extends Component {
        <div className="container">
        <div className="menu">
            <ul>
-           <li className="logo"><img src="diamond.jpg"/></li>
+           <li className="logo"><img src="diamond.png"/></li>
                <li className="active">Home </li>
                <li href="#">Price </li>
                <li href="#">Products </li>

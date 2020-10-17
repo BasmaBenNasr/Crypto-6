@@ -9,11 +9,14 @@ export default class Home extends Component {
            <div>
                     <div className="app-text">
                   <br></br> <br></br> <h2> Buy and sell crypto currencies</h2>
-                    <p>Coinbase is the perfect place to buy, sell, and manage your cryptocurrency portfolio.</p>
+                    <p>Coinbase is the perfect place to buy, sell, and manage your Cryptocurrency portfolio.</p>
                    </div>
+                   {/* <div className="app-picture">
+                   <img src="art.jpg"/>
+                   </div> */}
                     <div className="play-btn">
                         <div className="play-btn-inner"><i className="fa fa-play"></i></div>
-
+                        <small><b>Click here to see the trading</b></small>
                     </div>
 
                    <div className="quick-links">

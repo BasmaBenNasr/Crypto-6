@@ -28,7 +28,7 @@ class App extends React.Component {
 	}
 
 	render(){
-
+		
 		let render
 		switch(this.state.view){
 			case "Home" : render = <Home/>;break;
@@ -41,6 +41,7 @@ class App extends React.Component {
 			<div>
 			<NavBar hundlePage={(e) =>{this.hundlePage(e)}} changeView={(v)=>{this.changeIt(v)}}/>
 	     	{this.state.showLogin && <Login /> }
+
 			{render}
 			</div>
 			
