@@ -6,7 +6,7 @@ import CryptoGraph from './components/CryptoGraph.jsx';
 import Home from './components/Home.jsx';
 import NavBar from './components/NavBar.jsx';
 import Login from './components/Login.jsx';
-// import Start from './components/Start.jsx';
+import Registration from './components/Registration.jsx';
 
 class App extends React.Component {
 	constructor(props) {
@@ -27,8 +27,11 @@ class App extends React.Component {
 			showLogin: v
 		})
 	}
-
-	render(){
+	// handleChangeReservation = ({ target }) => {
+	// 	this.setState({ [target.name]: target.value });
+	// 	console.log(this.state);
+	//   };
+	  	render(){
 		const mystyle = {
 			color: "white",
 			backgroundColor: "DodgerBlue",
@@ -39,7 +42,9 @@ class App extends React.Component {
 		switch(this.state.view){
 			case "Home" : render = <Home/>;break;
 			case "Login" : render = <Login/>;break;
-			// case "Start" : render = <Start/>;break;
+			case "Registration" : render = <Registration/>;break;
+			case "AboutUs" : render = <AboutUs/>;break;
+			
 			case "CryptoGraph": render = <CryptoGraph/>;break;
 		}
 console.log(render)
