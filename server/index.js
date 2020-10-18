@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-//const { retrieveData } = require('../database/serverDBQueries.js');
+
 const CryptoCurr = require('../database/CryptoCurr.js');
 
 const app = express();

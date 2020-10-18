@@ -18,4 +18,4 @@ const CryptoCurrSchema = new mongoose.Schema(
 
 const CryptoCurr = mongoose.model('Blog', CryptoCurrSchema);
 
-module.exports = CryptoCurr;
+module.exports = CryptoCurr
